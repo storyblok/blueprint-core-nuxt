@@ -3,7 +3,7 @@
 
 Integrate [Nuxt](https://nuxt.com/) with [Storyblok](http://www.storyblok.com) as a headless CMS.
 
-The blueprint is ideal for kickstarting new Storyblok and Next.js projects. What's inside:
+This blueprint is ideal for kickstarting new Storyblok and Next.js projects. What's inside:
 - Pre-configured default blocks: `page`, `teaser`, `grid`, and `feature`.
 - Support for the Visual Editor's live preview.
 - Dynamic routing to fetch and render new stories automatically.
@@ -43,12 +43,12 @@ STORYBLOK_DELIVERY_API_TOKEN=<REPLACE_WITH_YOUR_TOKEN>
 > Copy your space's preview access token from **Settings** > **Access Tokens**.
 > Learn more about Storyblok [access tokens](https://www.storyblok.com/docs/concepts/access-tokens).
 
-### Set the default environment
+### Connect the Visual Editor
 
 To render a preview of the local project in the Visual Editor, follow these steps:
 
 1. In your space, navigate to **Settings > Visual Editor**.
-2. Set the default environment to `https://localhost:3000`.
+2. Set the default environment to `https://localhost:3000/`.
 3. Save.
 4. Open the `home` story.
 5. Click **Config**.
@@ -60,7 +60,7 @@ npm run dev
 ```
 
 > [!IMPORTANT]
-> To connect to the Storyblok Visual Editor, the local project must run over HTTPS. Learn more in the [Visual Editor concept](https://www.storyblok.com/docs/concepts/visual-editor#local-development-via-https). See the [Visual Preview part of the Nuxt guide](https://storyblok.com/docs/guides/nuxt/visual-preview) for detailed instructions.
+> To connect the Storyblok Visual Editor, the local project must run over HTTPS. Learn more in the [Visual Editor concept](https://www.storyblok.com/docs/concepts/visual-editor#local-development-via-https). See the [Visual Preview part of the Nuxt guide](https://storyblok.com/docs/guides/nuxt/visual-preview) for detailed instructions.
 
 Back in Storyblok, open the **Home** story to start editing.
 
