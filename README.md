@@ -1,5 +1,5 @@
 
-# Storyblok Starter Space Blueprint: Nuxt
+# Storyblok Core Space Blueprint: Nuxt
 
 Integrate [Nuxt](https://nuxt.com/) with [Storyblok](http://www.storyblok.com) as a headless CMS.
 
