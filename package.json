@@ -17,7 +17,7 @@
 		"vue-router": "^4.5.1"
 	},
 	"devDependencies": {
-		"@storyblok/nuxt": "^7.0.0",
+		"@storyblok/nuxt": "https://pkg.pr.new/@storyblok/nuxt@189",
 		"vite-plugin-mkcert": "^1.17.8"
 	}
 }
