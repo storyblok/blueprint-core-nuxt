@@ -1,8 +1,10 @@
 <script setup>
 const slug = useRoute().params.slug;
 
-const story = await useAsyncStoryblok(slug ? slug.join('/') : 'home', {
-	version: 'draft',
+const { story } = await useAsyncStoryblok(slug ? slug.join('/') : 'home', {
+	api: {
+		version: 'draft',
+	},
 });
 </script>
 
