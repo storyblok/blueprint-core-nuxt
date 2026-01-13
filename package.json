@@ -12,12 +12,12 @@
 		"lint:fix": "eslint . --fix"
 	},
 	"dependencies": {
-		"nuxt": "^3.18.1",
+		"nuxt": "^4.2.2",
 		"vue": "^3.5.18",
 		"vue-router": "^4.5.1"
 	},
 	"devDependencies": {
-		"@storyblok/nuxt": "^8.0.3",
+		"@storyblok/nuxt": "^9.0.0",
 		"vite-plugin-mkcert": "^1.17.8"
 	}
 }
