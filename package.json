@@ -12,7 +12,7 @@
 		"lint:fix": "eslint . --fix"
 	},
 	"dependencies": {
-		"nuxt": "^4.2.2",
+		"nuxt": "^4.4.6",
 		"vue": "^3.5.18",
 		"vue-router": "^4.5.1"
 	},
