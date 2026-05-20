@@ -18,6 +18,6 @@
 	},
 	"devDependencies": {
 		"@storyblok/nuxt": "^9.0.0",
-		"vite-plugin-mkcert": "^1.17.8"
+		"vite-plugin-mkcert": "^2.0.0"
 	}
 }
